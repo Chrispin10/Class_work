@@ -40,4 +40,26 @@ mean(age)
 summary(age)
 
 ```
+##LOGIC OPERATOR
+
+```{r}
+X<-c(TRUE,FALSE)
+X<-c(T,F)
+```
+
+##character 
+
+```{r}
+x<-c("a","b","c")
+class<-c("M","F","F","M")
+```
+
+##MATRIX
+```{r}
+(X<-matrix(1:6 ,nrow = 3 ,ncol = 2))
+```
+```{r}
+x
+```
+
 
