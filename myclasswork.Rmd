@@ -118,5 +118,11 @@ summary(dataclass$Application..10)
 ```{r}
 length(summary(dataclass$Application..10))
 ```
+```{r}
+dataclass[2:4]
+```
 
+```{r}
+is.na(dataclass)
+```
 
