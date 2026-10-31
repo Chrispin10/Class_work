@@ -125,4 +125,15 @@ dataclass[2:4]
 ```{r}
 is.na(dataclass)
 ```
+```{r}
+dataclass$ID
+```
+```{r}
+data("airquality")
+variable.names(airquality)
+```
+```{r}
+str(airquality)
+str(dataclass)
+```
 
