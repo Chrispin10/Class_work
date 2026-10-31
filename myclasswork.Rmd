@@ -61,5 +61,28 @@ class<-c("M","F","F","M")
 ```{r}
 x
 ```
+## CREATING LIST 
+
+```{r}
+(X<-list(1,2,4,5,"b",1+4i))
+
+```
+##Factor 
+
+```{r}
+(a<-factor(c("yes","yes","no","yes","no")))
+
+```
+
+## creating vectors 
+```{r}
+(b<-c(1,8,NA,"T",10,6,NA,NA))
+is.na(b)
+bad<-is.na(b)
+print(bad)
+```
+```{r}
+```
+
 
 
