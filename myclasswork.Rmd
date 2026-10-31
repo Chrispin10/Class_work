@@ -136,4 +136,20 @@ variable.names(airquality)
 str(airquality)
 str(dataclass)
 ```
+```{r}
+apply(dataclass,5,mean)
+```
+```{r}
+c(Meam=mean(dataclass$Application..10),sD=sd(dataclass$Presentation..30))
+```
 
+
+
+
+
+```{r}
+c(Meam=mean(dataclass$Application..10),sD=sd(dataclass$Presentation..30))
+```
+
+
+```{r}
