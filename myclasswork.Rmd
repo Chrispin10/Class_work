@@ -81,8 +81,42 @@ is.na(b)
 bad<-is.na(b)
 print(bad)
 ```
+## CREATING DATA 
+
 ```{r}
+studentID<-c(1,2,3,4,5)
+math_score<-c(12,17,10,9,NA)
+gender<-c("M","F","M","M","F")
+it_score<-c(13,18,11,10,19)
+scoredata <-data.frame(studentID,math_score,gender,it_score)
+scoredata
+is.na(scoredata)
+```
+##importing data 
+
+```{r}
+dataclass <- read.csv("C:/Users/cngabo/Downloads/mark_pro_test.csv")
+dataclass
+```
+```{r}
+tail(dataclass)
 ```
 
+
+```{r}
+head (dataclass)
+```
+```{r}
+summary(dataclass)
+```
+```{r}
+dataclass$Names
+```
+```{r}
+summary(dataclass$Application..10)
+```
+```{r}
+length(summary(dataclass$Application..10))
+```
 
 
